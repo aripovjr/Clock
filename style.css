@@ -59,13 +59,15 @@ body{
     position: relative;
     width: 200px;
     height: 200px;
+    border: 1px solid var(--primary-color);
+    border-radius: 50%;
 }
 
 .needle{
     position: absolute;
     background-color: var(--primary-color);
     width: 3px;
-    height: 65px;
+    height: 55px;
     top: 50%;
     left: 50%;
     transform-origin: bottom center;
@@ -76,13 +78,13 @@ body{
 }
 
 .needle.minute{
-    height: 100px;
+    height: 75px;
     transform: translate(-50%, -100%) rotate(0deg);
 }
 
 .needle.seconds{
     background-color: #e74c3c;
-    height: 100px;
+    height: 90px;
     transform: translate(-50%, -100%) rotate(0deg);
 }
 
