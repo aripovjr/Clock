@@ -71,6 +71,7 @@ body{
     top: 50%;
     left: 50%;
     transform-origin: bottom center;
+    transition: all 0.7s ease;
 }
 
 .needle.hour{
